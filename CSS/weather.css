@@ -1,0 +1,39 @@
+body{
+    background-color: #074673;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; 
+}
+
+.container {
+    width: 25%;
+    height: auto;
+    background-color: rgb(188, 188, 188);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 8px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.container h2 {
+    color: #074673;
+    text-align: center;
+}
+
+.container hr {
+    border-color: rgb(198, 195, 195);
+}
+
+.container p {
+    text-align: center;
+}
+
+#getLocationButton{
+    width: 30%;
+    height: 3em;
+    background-color: #074673;
+    color: white;
+    margin-left:150px;
+    
+}
