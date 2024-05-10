@@ -10,7 +10,6 @@ function showWeather(position) {
     const latitude = position.coords.latitude;
     const longitude = position.coords.longitude;
 
-    // Weather.html sayfasına yönlendir
     window.location.href = `weather.html?lat=${latitude}&lon=${longitude}`;
 }
 
